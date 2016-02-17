@@ -1,3 +1,4 @@
+#! /usr/bin/env python
 def bread(func):
     def wrapper(*args, **kwargs):
         print "</''''''\>"
