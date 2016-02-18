@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 from hashlib import sha1
 
-SIZE_128_MB = 131072
+SIZE_128_MB = 128<<10
 BIG_FILE_PATH = 'big_file'
 
 def file_chunker(file_path, chunk_size=SIZE_128_MB):
